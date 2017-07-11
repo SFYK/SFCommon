@@ -1,10 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = "SFCommon"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "init"
-  s.description  = <<-DESC
-                   DESC
-  s.homepage     = "http://EXAMPLE/SFCommon"
+  s.description  = "A delightful setting interface framework."
+  s.homepage     = "https://github.com/SFYK/SFCommon"
   s.license      = { :type => "MIT", :file => "LICENSE" }
 
   s.author             = { "SFYK" => "coyote_wsf@126.com" }
