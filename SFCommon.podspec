@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SFCommon"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "init"
   s.description  = "A delightful setting interface framework."
   s.homepage     = "https://github.com/SFYK/SFCommon"
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/SFYK/SFCommon.git", :tag => s.version}
 
-  s.source_files  = "SFCommon", "Classes/**/*.{h,m}"
+  s.source_files  = "SFCommon", "SFCommon/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
